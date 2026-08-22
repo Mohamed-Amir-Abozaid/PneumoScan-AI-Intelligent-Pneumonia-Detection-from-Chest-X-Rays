@@ -1,1 +1,21 @@
 data/chest_xray/
+
+# Virtual environment
+.venv/
+
+# Dataset
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained models
+models/*.pt
+models/*.pth
+
+# Experiment outputs
+results/
+
+# Environment files
+.env
